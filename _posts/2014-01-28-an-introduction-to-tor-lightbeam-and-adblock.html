@@ -1,0 +1,65 @@
+---
+layout: post
+published: true
+title: An Introduction To Tor, Lightbeam, and Adblock
+author: swarnava
+date: '2014-01-28 21:20:17 +0530'
+categories:
+- Announcements
+- Updates
+tags:
+- abp
+- adblock
+- adblockplus
+- firefox
+- lightbeam
+- Mozilla
+- noscript
+- tor
+- torproject
+permalink: "/781"
+---
+<div><a href="http://i.imgur.com/eMu5ICN.png"><img class="alignleft" style="border: 0px none;" alt="" src="http://i.imgur.com/eMu5ICN.png" width="306" height="185" border="0" /></a></div>
+<p>In a world increasingly dominated by surveillance from marketers, tech firms, and big governments, privacy can be tough to come by these days. In an effort to help our readers gain more control over what data is exposed during their web browsing I&rsquo;ve decided to cover some of the most prominent and easy to use privacy oriented programs.<br />
+Lightbeam is a plugin for the Firefox web browser that allows you to view what third party websites your data is being shared with. Tor is a web browser bundle that seeks to anonymize your web browsing. Finally AdBlock and NoScript are programs that prevent ads for the former and prevent javascript from running in your browser for the latter. Using one or a combination of several of these programs can help to give you more control over who has access to your personal data.<br />
+<b>Note:</b> The following services are very user friendly and as such I won&rsquo;t be doing tutorials on them. If you have issues I&rsquo;d love to hear your questions in the comments area.</p>
+<h2><b>Firefox</b></h2>
+<p>&nbsp;</p>
+<p><a href="http://i.imgur.com/RPFaXib.jpg"><img class="alignleft" alt="firefox-256" src="http://cryptojunky.com/blog/wp-content/uploads/2014/01/firefox-256.jpg" width="154" height="154" /></a>While you might think of your web browser as a simple gateway to the web the reality is far more disheartening. Many web browsers are purported to include tracking code which shares data with outside sources. For instance, while I like Google Chrome&rsquo;s simplicity I&rsquo;ve also heard it described as Malware due to its propensity for tracking its users&rsquo; web browsing. Firefox on the other hand is an open source browser with a host of plugins and add ons aimed at keeping users&rsquo; data more secure. Some of the following programs require Firefox and I&rsquo;d highly suggest its use over other web browsers.</p>
+<div style="text-align: center;"><a title="Mozilla.org" href="https://www.mozilla.org/en-US/firefox/new/" target="_blank" rel="noopener noreferrer"><b>Firefox Home Page (Mozilla.org)</b></a></div>
+<h2><b>Lightbeam</b></h2>
+<p>&nbsp;</p>
+<p><a href="http://i.imgur.com/BvdwCQv.png"><img class="alignleft" alt="lightbeam_logo" src="http://cryptojunky.com/blog/wp-content/uploads/2014/01/lightbeam_logo.png" width="130" height="130" /></a>Lightbeam is an add-on for Firefox which was released in late 2013. Lightbeam provides Firefox users with a visual representation of who is sharing their data and how web sites are connected. Most web sites use third party plug-ins such as analytics software or ad servers. This plugin helps users to see just which sites and services are being connected to without having to wade through lines of code. Lightbeam is more of an educational resource as to who your data is being shared with and how websites connect to each other. You may not check LightBeam often, but using it even once can do worlds in informing you as to how the websites you&rsquo;re connecting to are working.</p>
+<div style="text-align: center;"><b><a title="LightBeam - Mozilla.org" href="https://addons.mozilla.org/en-US/firefox/addon/lightbeam/" target="_blank" rel="noopener noreferrer">Lightbeam (Mozilla.org)</a></b></div>
+<h2><b>Tor</b></h2>
+<p>&nbsp;</p>
+<p><a href="http://i.imgur.com/FO0LFOu.png"><img class="alignleft" alt="Tor_logo1" src="http://cryptojunky.com/blog/wp-content/uploads/2014/01/Tor_logo1.png" width="104" height="152" /></a>Tor is a browser bundle consisting of a version of Firefox as well as some other software that serves the purpose of anonymizing your internet traffic. Originally developed by the US Naval Research Laboratory, Tor and the Tor network now consists of thousands of servers which help to relay your traffic. Your traffic enters into one entry node, is passed among one or more relay nodes, and exits at an unknown exit node. To an outside observer it is difficult to determine which traffic relates to whom (Though some attacks on the network have been successful, <a title="Tor Network - Wikipedia" href="https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29" target="_blank" rel="noopener noreferrer">check this wikipedia article for a list of weaknesses</a>).<br />
+All you have to do to run Tor on your machine is to download the Tor browser bundle from the Tor Project and start it up. The homepage for the instance of Firefox running Tor will either state that you are or are not running the latest version of Tor.</p>
+<div><a title="Tor Project" href="https://www.torproject.org/" target="_blank" rel="noopener noreferrer"><b>Tor Project (TorProject.org)</b></a></div>
+<p>There are a few limitations with Tor. For instance, navigating to certain sites with Tor you might find that the IP has been blocked or that posts from that IP have been disabled. Since Tor relies on a series of independent servers, once an IP is blocked for one user it will be blocked for all subsequent users exiting the Tor network from that IP.<br />
+As pointed out by <a title="Twitter" href="https://twitter.com/akareilly" target="_blank" rel="noopener noreferrer">Karen Reilly</a> of the Tor project, there are some potential issues with using a combination of Tor and VPNs as VPN providers could potentially compromise your anonymity (<a title="TOR With VPNs - TorProject" href="https://lists.torproject.org/pipermail/tor-talk/2012-January/022917.html" target="_blank" rel="noopener noreferrer">Link with details to use of Tor with VPNs</a>). Additionally sending plain text over the Tor network is still sending plain text, just like any other network. It is possible that data such as usernames and passwords <a title="EFF.org" href="https://www.eff.org/pages/tor-and-https" target="_blank" rel="noopener noreferrer">could be compromised at several places along the way</a>. As such it is important to use a combination of HTTPS and Tor.<br />
+It is possible to support the Tor network by running your own exit node. However, this is not advisable if you&rsquo;re running it from a home or work network. Because of Tor&rsquo;s anonymity it has a propensity for attracting some nefarious characters, and you don&rsquo;t want their traffic emerging from your home network as it is possible that it could draw the attention of law enforcement agencies.<br />
+It is also possible to route other programs through Tor providing additional anonymity for things like chat rooms.</p>
+<h2><b>AdBlock Plus and NoScript</b></h2>
+<p>&nbsp;</p>
+<p><a href="http://i.imgur.com/IVbjEmU.jpg"><img class="alignleft" alt="adblock_logo" src="http://cryptojunky.com/blog/wp-content/uploads/2014/01/adblock_logo.jpg" width="164" height="154" /></a>AdBlockPlus is a plug-in for Firefox that disables ads on websites that you visit. Aside from the possible privacy implications, blocking ads can create a much better web experience. AdBlockPlus is extremely easy to install and requires a total of two clicks once you get to the installation page. By default AdBlockPlus allows some unobtrusive advertisements, though settings can be adjusted to block all ads. A quick test run shows that the advertisements on this site (google adsense ads) are blocked. Meanwhile the default ads on Reddit are not blocked.</p>
+<div style="text-align: center;"><b><a title="AdBlockPlus.org" href="https://adblockplus.org/en/firefox" target="_blank" rel="noopener noreferrer">Ad Block Plus Homepage (AdBlockPlus.org)</a></b></div>
+<div></div>
+<p><a href="http://i.imgur.com/ghkzQzm.png"><img class="alignleft" alt="NoScriptLogo" src="http://cryptojunky.com/blog/wp-content/uploads/2014/01/NoScriptLogo.png" width="158" height="158" /></a>While blocking advertisements is all good and fun, blocking all client side scripts can greatly improve your individual privacy. Many sites use snippets of javascript and cookies to track information about their visitors. At times this information is sold and passed on to third party sites without the user&rsquo;s knowledge or consent. Like Ad Block Plus, No Script is extremely easy to install, though it does require you restart Firefox. Note that NoScript doesn&rsquo;t disable all client side programs, but rather let&rsquo;s you choose which ones you want to let run.</p>
+<div style="text-align: center;"><a title="NoScript.net" href="http://noscript.net/" target="_blank" rel="noopener noreferrer"><b>No Script Hompage (NoScript.net)</b></a></div>
+<div style="text-align: center;"></div>
+<p>I&rsquo;d encourage you to test out a combination of Lightbeam, AdBlock and NoScript on this site and others. You&rsquo;ll quickly see that a site like <a title="Hacker News" href="http://news.ycombinator.com/" target="_blank" rel="noopener noreferrer">Hacker News</a> doesn&rsquo;t appear to connect to any third party sites, while a site like <a title="Yahoo" href="http://yahoo.com/" target="_blank" rel="noopener noreferrer">Yahoo</a> appears to connect to dozens. CryptoJunky.com connects to several as we currently have analytics software, as well as adsense and several social media scripts running. At the moment we&rsquo;re strongly considering removing most or all of these in order to better preserve user privacy. If you have an opinion one way or another we&rsquo;d love to hear it in the comments.</p>
+<h2><b>Search Engines<br />
+</b></h2>
+<p><a href="http://i.imgur.com/dBbfS9S.gif"><img class="alignleft" alt="duckduckgo-logo" src="http://cryptojunky.com/blog/wp-content/uploads/2014/01/duckduckgo-logo.gif" width="200" height="134" /></a>While google has reigned on high for over a decade as the preferred search engine of the internet, recent privacy concerns have put a chink in their armour. If you don&rsquo;t want your search history tracked, recorded, and probably passed on then I&rsquo;d suggest going with an alternative such as <a title="DuckDuckGo" href="https://duckduckgo.com/" target="_blank" rel="noopener noreferrer">DuckDuckGo</a>. In addition to <a title="donttrack.us" href="http://donttrack.us/" target="_blank" rel="noopener noreferrer">anonymizing your searches</a>, using DuckDuckGo has the added benefit of keeping you out of the filter bubble which encircles an increasingly large amount of our online activities.<br />
+Since <a title="DuckDuckGo" href="https://duckduckgo.com/" target="_blank" rel="noopener noreferrer">DuckDuckGo</a> doesn&rsquo;t quite have the funding of Google or Bing, you&rsquo;ll see less in the way of advanced search options such as news, images, video, etc. What you get with DuckDuckGo is a crude yet refreshing search experience akin to Google&rsquo;s early days.</p>
+<div style="text-align: center;"><a title="DuckDuckGo" href="https://duckduckgo.com/" target="_blank" rel="noopener noreferrer"><b>DuckDuckGo Home Page</b></a></div>
+<div></div>
+<h2><b>Contributing</b></h2>
+<p>&nbsp;</p>
+<p>If you&rsquo;re interested in contributing to any of the above projects most accept donations. Some, such as Mozilla (Firefox) are actively pursuing open source developers to help them improve Firefox and related services. Another group to consider donating to is the <a title="Electronic Frontier Foundation" href="https://www.eff.org/" target="_blank" rel="noopener noreferrer">Electronic Frontier Foundation</a> which aims to protect individual user rights and privacy online (and they accept Bitcoin!).</p>
+<h2><b>Conclusion</b></h2>
+<p>&nbsp;</p>
+<p>A man walks into a jewelry store to shop for an engagement ring for his future bride. He gets advice, browses a few options, and after some time makes a purchase. Awhile later he proposes to his now fiance with complete surprise.<br />
+Some years later his son is shopping for an engagement ring online. The son gets some advice, browses a few options, and after some time makes a purchase. Later that night he&rsquo;s with his future fiance when a few ads get played on their internet radio station, promoting deals for engagement rings. Later she uses his tablet which is chalk full of ads targeting men shopping for engagement rings. No surprises to be had.<br />
+We all have things we&rsquo;d like to keep private from time to time, hopefully these programs help you in keeping what&rsquo;s important to you private.</p>
