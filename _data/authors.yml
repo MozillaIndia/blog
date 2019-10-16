@@ -1,0 +1,17 @@
+#Authors
+authors:
+  author1:
+    name:
+    display_name:
+    avatar:
+    email:
+    links:
+      -label1: 
+       link1:
+      -label2:
+       link2:
+    bio:
+  author2:
+    #the same format can be followed for all authors. author1 and author2 canbe first names of the authors
+    #and can be used as the value of the "authors" variable in the front matter of blog posts.
+
